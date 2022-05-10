@@ -21,25 +21,66 @@ namespace ConsoleProgram
         }
         public static void Reading()
         {
-         
-            switch (Convert.ToInt32(Console.ReadLine()))
+            bool invalid, invalid1;
+
+            
+
+            do
             {
-                    case 1:
-                    Console.WriteLine("введите число до которого необходимо заполнить массив");
-                    Class2.disp(Class2.Array(Convert.ToInt32(Console.ReadLine())));
-                    break;
-                    case 2:
-                    Class1.Read();
-                    Class1.Reading();
-                    break;
-                    default:
+                invalid1 = true;
+                
+                String? response = Console.ReadLine();
+                if (int.TryParse(response, out int num))
+                {
+
+                    switch (num)
+                    {
+                        case 1:
+
+                            Console.WriteLine("введите число до которого необходимо заполнить массив");                                                       
+                            do// do while защита от пустого ввода
+                            {
+                                invalid = true;
+                               
+                                String? response1 = Console.ReadLine();
+                                if (int.TryParse(response1, out int num1))
+                                {
+                                    Class2.disp(Class2.Array(num1));
+                                  
+                                }
+                                else
+                                {
+                                    Console.WriteLine("не тупи, написано ведь 1 или 2");
+                                }
+                                invalid = false;
+                            } while (invalid);
+                          
+
+
+                            break;
+                        case 2:
+                            
+                            break;
+
+
+                        default:
+                            Console.WriteLine("не тупи, написано ведь 1 или 2");
+
+                            break;
+                            
+                    }
+                    invalid1 = false;
+
+                }
+                else
+                {
                     Console.WriteLine("не тупи, написано ведь 1 или 2");
+                }
+            } while (invalid1);
 
-                    break ;
 
 
 
-            }
 
         }
       

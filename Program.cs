@@ -12,9 +12,7 @@ namespace consoleprogram
         public static void Main()
         {
             d:
-            Class1.Read();
-            //Class1.Array(Convert.ToInt32(Console.ReadLine()));
-            //Class2.disp(Class2.Array(Convert.ToInt32(Console.ReadLine())));
+            Class1.Read();           
             Class1.Reading();
             goto d;
         }
