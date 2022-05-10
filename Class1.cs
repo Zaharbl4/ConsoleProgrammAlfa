@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleProgram;
 
 namespace ConsoleProgram
 {
@@ -10,27 +11,30 @@ namespace ConsoleProgram
     {
         public static void Read()
         {
-            Console.Write("Введите число ");
+            
+            Console.WriteLine("Консольная программа");
+            Console.WriteLine("Заполнить массив?");
+            Console.WriteLine("1-да  2-нет");
+            //string? a = Console.ReadLine();
 
         }
-        public static int[] Array(int size)
+        public static void Reading()
         {
-
-            int[] array = new int[size];
-
-            for (int i = 0; i < size; i++)
+            //laibel:
+            if (Convert.ToInt32(Console.ReadLine())==1)
             {
-                array[i] = i;
+                Console.WriteLine("введите число до которого необходимо заполнить массив");
+                Class2.disp(Class2.Array(Convert.ToInt32(Console.ReadLine())));
             }
-            return array;
-        }
-        public static void disp(int[] array)
-        {
-            for (int i = 0; i < array.Length; i++)
+            else if (Convert.ToInt32(Console.ReadLine())==2)
             {
-                Console.WriteLine(array[i]);
+             Class1.Read();
             }
-
+            else
+            {
+                //goto laibel;
+            }
         }
+      
     }
 }

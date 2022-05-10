@@ -13,7 +13,8 @@ namespace consoleprogram
         {
             Class1.Read();
             //Class1.Array(Convert.ToInt32(Console.ReadLine()));
-            Class1.disp(Class1.Array(Convert.ToInt32(Console.ReadLine())));
+            //Class2.disp(Class2.Array(Convert.ToInt32(Console.ReadLine())));
+            Class1.Reading();
         }
 
            
