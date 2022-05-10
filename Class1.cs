@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ConsoleProgram;
 
+
 namespace ConsoleProgram
 {
     internal class Class1
@@ -20,20 +21,26 @@ namespace ConsoleProgram
         }
         public static void Reading()
         {
-            //laibel:
-            if (Convert.ToInt32(Console.ReadLine())==1)
+         
+            switch (Convert.ToInt32(Console.ReadLine()))
             {
-                Console.WriteLine("введите число до которого необходимо заполнить массив");
-                Class2.disp(Class2.Array(Convert.ToInt32(Console.ReadLine())));
+                    case 1:
+                    Console.WriteLine("введите число до которого необходимо заполнить массив");
+                    Class2.disp(Class2.Array(Convert.ToInt32(Console.ReadLine())));
+                    break;
+                    case 2:
+                    Class1.Read();
+                    Class1.Reading();
+                    break;
+                    default:
+                    Console.WriteLine("не тупи, написано ведь 1 или 2");
+
+                    break ;
+
+
+
             }
-            else if (Convert.ToInt32(Console.ReadLine())==2)
-            {
-             Class1.Read();
-            }
-            else
-            {
-                //goto laibel;
-            }
+
         }
       
     }
