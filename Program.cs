@@ -12,8 +12,8 @@ namespace consoleprogram
         public static void Main()
         {
             Class1.Read();
-            Class1.Array(Convert.ToInt32(Console.ReadLine()));
-
+            //Class1.Array(Convert.ToInt32(Console.ReadLine()));
+            Class1.disp(Class1.Array(Convert.ToInt32(Console.ReadLine())));
         }
 
            
