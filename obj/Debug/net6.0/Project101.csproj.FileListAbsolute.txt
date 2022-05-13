@@ -1,0 +1,30 @@
+C:\Users\User\Desktop\project\Project101\Project101\bin\Debug\net6.0\Project101.exe
+C:\Users\User\Desktop\project\Project101\Project101\bin\Debug\net6.0\Project101.deps.json
+C:\Users\User\Desktop\project\Project101\Project101\bin\Debug\net6.0\Project101.runtimeconfig.json
+C:\Users\User\Desktop\project\Project101\Project101\bin\Debug\net6.0\Project101.dll
+C:\Users\User\Desktop\project\Project101\Project101\bin\Debug\net6.0\Project101.pdb
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.AssemblyInfo.cs
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.dll
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\refint\Project101.dll
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.pdb
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\Project101.genruntimeconfig.cache
+C:\Users\User\Desktop\project\Project101\Project101\obj\Debug\net6.0\ref\Project101.dll
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\bin\Debug\net6.0\Project101.exe
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\bin\Debug\net6.0\Project101.deps.json
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\bin\Debug\net6.0\Project101.runtimeconfig.json
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\bin\Debug\net6.0\Project101.dll
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\bin\Debug\net6.0\Project101.pdb
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.AssemblyInfo.cs
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.dll
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\refint\Project101.dll
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.pdb
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\Project101.genruntimeconfig.cache
+C:\Users\User\Desktop\бесполезное програмирование\project\Project101\Project101\obj\Debug\net6.0\ref\Project101.dll
