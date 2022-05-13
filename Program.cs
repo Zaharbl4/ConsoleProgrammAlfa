@@ -11,9 +11,13 @@ namespace consoleprogram
     {
         public static void Main()
         {
-            d:
-            Class1.Read();           
-            Class1.Reading();
+             d:
+            Class1.OutputConsole();
+            // Class1.Read();           
+            // Class1.Reading();
+
+            //Console.WriteLine(Class3.Input()); //проверка ввода
+            Class4.Ds();
             goto d;
         }
 

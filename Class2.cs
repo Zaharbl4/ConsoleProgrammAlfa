@@ -9,7 +9,11 @@ namespace ConsoleProgram
 {
     internal class Class2
     {
-        public static void disp(int[] array)
+        public static void Disp(int[] array,int var)
+        {
+            Console.WriteLine(array[var]);
+        }
+        public static void dispArray(int[] array)
         {
             for (int i = 0; i < array.Length; i++)
             {
@@ -17,13 +21,24 @@ namespace ConsoleProgram
             }
 
         }
-        public static int[] Array(int size)
+        public static int[] ArrayN(int size, int arrayN)
         {
             int[] array = new int[size];
            
             for (int i = 0; i < size; i++)
             {
-                array[i] = i;
+                array[i] = arrayN++;
+            }
+            return array;
+        }
+        public static int[] ArrayR(int size, int randomN, int randomN1)
+        {
+            int[] array = new int[size];
+
+            for (int i = 0; i < size; i++)
+            {
+                var rand = new Random();
+                array[i] = rand.Next(randomN ,randomN1);
             }
             return array;
         }
